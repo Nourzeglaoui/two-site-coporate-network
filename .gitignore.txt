@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Packet Tracer backups and temp files
+*.pkz.bak
+~*
+
+# Never commit anything secret
+*.key
+*.pem
+secrets.txt
+EOF
